@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Include the CSS file with your styles -->
+    <link rel="icon" href="Logo way to move.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="background"></div>
+    <div class="content">
+
+        <h2><span class="colored-text">Choose an Option</span></h2>
+
+            <div class="options">
+                <input type="radio" id="option1" name="option" value="option1">
+                <label for="option1" class="option" style="background-image: url('truckimgs/box\ truck.png');"></label>
+                
+                <input type="radio" id="option2" name="option" value="option2">
+                <label for="option2" class="option" style="background-image: url('truckimgs/quarter\ truck.jpg');"></label>
+                
+                <input type="radio" id="option3" name="option" value="option3">
+                <label for="option3" class="option" style="background-image: url('truckimgs/semi-truck.png');"></label>
+
+                <input type="radio" id="option4" name="option" value="option4">
+                <label for="option4" class="option" style="background-image: url('truckimgs/van-.png');"></label>
+            </div>
+
+        <div class="form-container">
+            <form class="address-form">
+                <h3>Address From</h3>
+                <label for="government-from">Government:</label>
+                <select id="government-from">
+                    <option value="cairo">Cairo</option>
+                    <option value="alexandria">Alexandria</option>
+                    <option value="ismailia">Ismailia</option>
+                    <option value="luxor">Luxor</option>
+                    <option value="aswan">Aswan</option>
+                    <option value="asyut">Asyut</option>
+                    <option value="beheira">Beheira</option>
+                    <option value="beni-suef">Beni Suef</option>
+                    <option value="port-said">Port Said</option>
+                    <option value="suez">Suez</option>
+                    <option value="damietta">Damietta</option>
+                    <option value="sharqia">Sharqia</option>
+                    <option value="south-sinai">South Sinai</option>
+                    <option value="gharbia">Gharbia</option>
+                    <option value="giza">Giza</option>
+                    <option value="dakahlia">Dakahlia</option>
+                    <option value="daqahliya">Daqahliya</option>
+                    <option value="north-sinai">North Sinai</option>
+                    <option value="qalyubia">Qalyubia</option>
+                    <option value="kafr-el-sheikh">Kafr el-Sheikh</option>
+                    <option value="matrouh">Matrouh</option>
+                    <option value="monufia">Monufia</option>
+                    <option value="minya">Minya</option>
+                    <option value="new-valley">New Valley</option>
+                    <option value="sohag">Sohag</option>
+                    <option value="qena">Qena</option>
+                    <option value="red-sea">Red Sea</option>
+                </select>
+                <label for="street-from">Street Name:</label>
+                <input type="text" id="street-from" name="street-from" required>
+                <label for="building-from">Building No.:</label>
+                <input type="text" id="building-from" name="building-from" required>
+                <label for="instructions-from">Instructions:</label>
+                <textarea id="instructions-from" name="instructions-from"></textarea>
+            </form>
+        
+
+            <form class="address-form">
+                <h3>Address To</h3>
+                <label for="government-to">Government:</label>
+                <select id="government-to">
+                    <option value="cairo">Cairo</option>
+                    <option value="alexandria">Alexandria</option>
+                    <option value="ismailia">Ismailia</option>
+                    <option value="luxor">Luxor</option>
+                    <option value="aswan">Aswan</option>
+                    <option value="asyut">Asyut</option>
+                    <option value="beheira">Beheira</option>
+                    <option value="beni-suef">Beni Suef</option>
+                    <option value="port-said">Port Said</option>
+                    <option value="suez">Suez</option>
+                    <option value="damietta">Damietta</option>
+                    <option value="sharqia">Sharqia</option>
+                    <option value="south-sinai">South Sinai</option>
+                    <option value="gharbia">Gharbia</option>
+                    <option value="giza">Giza</option>
+                    <option value="dakahlia">Dakahlia</option>
+                    <option value="daqahliya">Daqahliya</option>
+                    <option value="north-sinai">North Sinai</option>
+                    <option value="qalyubia">Qalyubia</option>
+                    <option value="kafr-el-sheikh">Kafr el-Sheikh</option>
+                    <option value="matrouh">Matrouh</option>
+                    <option value="monufia">Monufia</option>
+                    <option value="minya">Minya</option>
+                    <option value="new-valley">New Valley</option>
+                    <option value="sohag">Sohag</option>
+                    <option value="qena">Qena</option>
+                    <option value="red-sea">Red Sea</option>
+                </select>
+                <label for="street-to">Street Name:</label>
+                <input type="text" id="street-to" name="street-to" required>
+                <label for="building-to">Building No.:</label>
+                <input type="text" id="building-to" name="building-to" required>
+                <label for="instructions-to">Instructions:</label>
+                <textarea id="instructions-to" name="instructions-to"></textarea>
+            </form>
+        </div>
+        <div class="buttons">
+            <button type="submit">Confirm</button>
+            <button type="button">Cancel</button>
+        </div>
+    </div>
+
+</body>
+</html>
